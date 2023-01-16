@@ -6,7 +6,7 @@ import (
 	"github.com/slack-go/slack"
 )
 func main(){
-	os.Setenv("SLACK_BOT_TOKEN","xoxb-1021312075858-4644405477363-yWcRPZRlmTvlmBFtUdQtbXia")
+	os.Setenv("SLACK_BOT_TOKEN","")
 	os.Setenv("CHANNEL_ID", "C010NHVPB43")
 	 api := slack.New(os.Getenv("SLACK_BOT_TOKEN"))
 	 channelAdr := []string{os.Getenv("CHANNEL_ID")}
